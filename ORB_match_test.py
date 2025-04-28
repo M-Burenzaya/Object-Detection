@@ -58,7 +58,7 @@ if len(matches) >= 4:
         cv2.imshow('Detection', sample_img_display)
         cv2.imshow('Matches', matched_img_display)
 
-        cv2.imwrite('Test2_sample.jpeg', sample_img_color)
+        # cv2.imwrite('Test2_sample.jpeg', sample_img_color)
         cv2.imwrite('Test2_match.jpeg', matched_img)
 
         cv2.waitKey(0)
