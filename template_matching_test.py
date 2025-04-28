@@ -98,5 +98,6 @@ sample_img_display = cv2.resize(sample_img_display, (w_disp, h_disp))
 
 # Show result
 cv2.imshow('Template Matching with NMS', sample_img_display)
+cv2.imwrite('Test4_sample.jpeg', sample_img_display)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
