@@ -23,7 +23,7 @@ master_img = cv2.resize(master_img, (width, height), interpolation=cv2.INTER_ARE
 w_template, h_template = master_img.shape[::-1]
 
 # Open video source
-cap = cv2.VideoCapture('data/test_videos/20250428_083416.mp4')
+cap = cv2.VideoCapture('data/test_videos/New folder/20250428_083416.mp4')
 
 if not cap.isOpened():
     raise IOError("Cannot open video source")
